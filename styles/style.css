@@ -4,51 +4,64 @@
     --accent: #9FB8AD;
     --accent-shade: #8A9A91;
     --secondary: #475841;
-    --third:#3F403F;
+    --third: #3F403F;
 }
+
 body {
     background-color: var(--accent-shade);
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
 }
+
 h1 {
     text-align: center;
     color: var(--main);
     margin-top: 1em;
 }
+
 .mortgage-form {
     background-color: var(--main-shade);
     padding: 2em;
     border-radius: 10px;
-    max-width: 400px;
+    max-width: 500px;
     margin: 2em auto;
-    text-align: center;
+
 }
+
 label {
-    display: block;
+
     margin-bottom: 0.5em;
     color: var(--secondary);
     font-weight: bold;
 }
+
 input[type="number"] {
-    width: 100%;
-    padding: 0.5em;
+    width: 94.4%;
+    padding: 1em;
     margin-bottom: 1em;
     border: 1px solid var(--accent);
     border-radius: 5px;
-    text-align: center;
+
 }
+
 button {
-    text-align: center;
+
     color: var(--main);
     background-color: var(--secondary);
     border: none;
     border-radius: 1em;
     width: 100%;
     padding: 1em;
-    margin: 1em;
+
 }
+
 button:hover {
     background-color: var(--third);
+}
+
+.bottom {
+    text-align: center;
+    color: var(--main);
+    margin-top: 5em;
+    padding: 1em;
 }
